@@ -19,7 +19,7 @@ pipeline {
         stage('Build Docker image'){
             steps {
               
-                sh 'docker build -t  abhinavwalia001/docker_jenkins_springboot:${BUILD_NUMBER} .'
+                sh 'docker build -t  abhiwalia001/docker_jenkins_springboot:${BUILD_NUMBER} .'
             }
         }
 
